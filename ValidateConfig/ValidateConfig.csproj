@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Cheranga Hatangala</Authors>
+    <Company />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.1.*" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.*" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.*" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.1.*" />
+  </ItemGroup>
+
+</Project>
